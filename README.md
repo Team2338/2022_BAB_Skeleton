@@ -12,31 +12,11 @@
  
  ## Requirements
  
- ### Parameters
- Param 1: Run all CIMs in Brake mode
- 
- ### Basic
- Req 1: All: Display state of limit switch to console (not pressed = false, pressed = true)
- 
- Req 2: All: Read pigeon heading, and display to console heading
- 
- Req 3: Teleop: Hold B - run CIM_A at 20% power forward
- 
- Req 4: Teleop: Hold X - run CIM_B at 20% power reverse
- 
- Req 5: Teleop: Joystick turns CIM_C and CIM_D motor forward and reverse (from +100% to -100%)
- 
- Req 6: Teleop: Hold Y - turn SparkMax/Neo using 2.5 volts
- 
- Req 7: All: Show limit switch state on Shuffleboard (not pressed = red, pressed = green)
- 
- Req 8: All: Show pigeon heading and display using compass widget on Shuffleboard
- 
- ### Intermediate
+ ## Task
 
- Req 9: Teleop: If switch is pressed, cut TalonSRX/CIM power by 50% (when B and X are held)
- 
- ### Advanced
- 
- Req 10: Teleop: Hold A - turn SparkMax/Neo 60 RPM, display RPM to console
+Req 1: Display state of limitswitch to smartDashboard
+
+Req 2: Display heading of pigeon to smartDashboard
+
+Req 3: Use two CIMs to create a drivetrain to control the robot.
 
