@@ -1,5 +1,5 @@
 # 2022 Build-A-Bot
-FRC robot code for Build-A-Bot training. This training combines the basic concepts of electrical and programming to provide hands-on experience.
+FRC robot code for Build-A-Bot training. This training combines the basic concepts of electrical and programming to provide hands-on experience. Tharun, Deen, Arnav.
   
 ## Hardware
 Neo Motor and SparkMax
