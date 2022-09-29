@@ -13,13 +13,6 @@ public class Pigeon {
 
     private PigeonIMU.GeneralStatus _pigeonGenStatus = new PigeonIMU.GeneralStatus();
 
-    public static Pigeon getInstance() {
-        if (instance == null) {
-            instance = new Pigeon();
-        }
-        return instance;
-    }
-
     // used when the Pigeon is connected in the CAN path directly
     public Pigeon(){
         _pigeon = new PigeonIMU(RobotMap.PIGEON);
